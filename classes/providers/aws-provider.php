@@ -144,7 +144,8 @@ class AWS_Provider extends Provider {
 	const API_VERSION = '2006-03-01';
 	const SIGNATURE_VERSION = 'v4';
 
-	const DEFAULT_ACL = 'public-read';
+	//const DEFAULT_ACL = 'public-read';
+	const DEFAULT_ACL = 'private';
 	const PRIVATE_ACL = 'private';
 
 	/**
